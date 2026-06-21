@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 64ch;
+}
+
+.role {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.1rem;
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--rule-soft);
+}
+.role:first-child {
+  border-top: none;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--paper-2);
+  border: 1.5px solid var(--sky);
+  margin-top: 0.55rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+  color: var(--ink);
+}
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+}
+.body {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}

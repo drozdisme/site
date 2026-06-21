@@ -1,0 +1,46 @@
+.lead {
+  margin: 0 0 1.4rem;
+  color: var(--ink-soft);
+  max-width: 60ch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 1px solid var(--rule);
+  background: var(--paper-2);
+  border-radius: 4px;
+  padding: 1.15rem 1.25rem;
+  transition:
+    border-color 0.25s var(--ease),
+    transform 0.25s var(--ease),
+    box-shadow 0.25s var(--ease);
+}
+.card:hover {
+  border-color: var(--sky-light);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -24px rgba(44, 102, 172, 0.5);
+}
+
+.k {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.v {
+  font-size: 1.02rem;
+  color: var(--ink);
+  word-break: break-word;
+}
+.card:hover .v {
+  color: var(--sky-deep);
+}

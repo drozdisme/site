@@ -1,0 +1,25 @@
+:root {
+  /* palette — soft paper white + sky blue */
+  --paper: #f3f6fb;
+  --paper-2: #ffffff;
+  --ink: #16243b;
+  --ink-soft: #39495f;
+  --ink-mute: #697a92;
+
+  --sky: #3e7cc4;
+  --sky-deep: #2c66ac;
+  --sky-light: #9ac0e8;
+  --sky-mist: #e2ecf8;
+
+  --rule: #d6e0ee;
+  --rule-soft: #e7edf6;
+
+  /* type */
+  --font-display: "Spectral", Georgia, "Times New Roman", serif;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* layout */
+  --max: 1120px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

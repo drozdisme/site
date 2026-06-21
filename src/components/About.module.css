@@ -1,0 +1,40 @@
+.section {
+  padding-block: clamp(3.4rem, 8vw, 6rem);
+  border-top: 1px solid var(--rule);
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: clamp(1.8rem, 4vw, 2.8rem);
+}
+.num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--sky-deep);
+  letter-spacing: 0.08em;
+  padding-top: 0.35rem;
+}
+.h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3.4vw, 2.45rem);
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.prose {
+  max-width: 62ch;
+}
+.prose p {
+  margin: 0 0 1.15rem;
+  color: var(--ink-soft);
+}
+.prose p:last-child {
+  margin-bottom: 0;
+}
+.prose em {
+  font-style: italic;
+  color: var(--ink);
+}
